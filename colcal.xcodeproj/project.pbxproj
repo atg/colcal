@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75B96BE715700D4C00472826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B96BE615700D4B00472826 /* Foundation.framework */; };
 		75B96BEA15700D4C00472826 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B96BE915700D4C00472826 /* main.m */; };
 		75B96BEE15700D4C00472826 /* colcal.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75B96BED15700D4C00472826 /* colcal.1 */; };
+		75B96BF5157012B600472826 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B96BF4157012B600472826 /* Cocoa.framework */; };
+		75B96BF7157012E100472826 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B96BF6157012E100472826 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,10 +28,11 @@
 
 /* Begin PBXFileReference section */
 		75B96BE215700D4B00472826 /* colcal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = colcal; sourceTree = BUILT_PRODUCTS_DIR; };
-		75B96BE615700D4B00472826 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75B96BE915700D4C00472826 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		75B96BEC15700D4C00472826 /* colcal-Prefix.pch */ = {isa = PBXFileReference; path = "colcal-Prefix.pch"; sourceTree = "<group>"; };
+		75B96BEC15700D4C00472826 /* colcal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "colcal-Prefix.pch"; sourceTree = "<group>"; };
 		75B96BED15700D4C00472826 /* colcal.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = colcal.1; sourceTree = "<group>"; };
+		75B96BF4157012B600472826 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		75B96BF6157012E100472826 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75B96BE715700D4C00472826 /* Foundation.framework in Frameworks */,
+				75B96BF5157012B600472826 /* Cocoa.framework in Frameworks */,
+				75B96BF7157012E100472826 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +51,7 @@
 		75B96BD715700D4800472826 = {
 			isa = PBXGroup;
 			children = (
+				75B96BF4157012B600472826 /* Cocoa.framework */,
 				75B96BE815700D4C00472826 /* colcal */,
 				75B96BE515700D4B00472826 /* Frameworks */,
 				75B96BE315700D4B00472826 /* Products */,
@@ -65,7 +69,7 @@
 		75B96BE515700D4B00472826 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				75B96BE615700D4B00472826 /* Foundation.framework */,
+				75B96BF6157012E100472826 /* Cocoa.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
